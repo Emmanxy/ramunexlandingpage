@@ -16,4 +16,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://ramunextechnologies.co.za/sitemap.xml
+Sitemap: https://www.ramunextechnologies.co.za/sitemap.xml
