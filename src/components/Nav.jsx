@@ -41,7 +41,32 @@ export default function Nav() {
       borderRadius: "8px"
     }}
   />
- 
+
+
+<a
+  className="brand"
+  href="#top"
+  aria-label="Ramunex Technologies home"
+  style={{
+    color: "#ffffff",
+    fontSize: "12px",
+    fontWeight: "700",
+    letterSpacing: "3px",
+    textDecoration: "none",
+    whiteSpace: "nowrap"
+  }}
+>
+  RAMUNEX TECHNOLOGIES
+</a>
+
+
+
+
+
+
+
+
+  
 </a>
 
       <nav className="desktop-nav" aria-label="Primary navigation">
