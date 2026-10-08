@@ -43,20 +43,40 @@ export default function Nav() {
   />
 
 
+
 <a
   className="brand"
   href="#top"
   aria-label="Ramunex Technologies home"
   style={{
-    color: "#ffffff",
-    fontSize: "12px",
-    fontWeight: "700",
-    letterSpacing: "3px",
-    textDecoration: "none",
-    whiteSpace: "nowrap"
+    display: "flex",
+    alignItems: "center",
+    gap: "12px",
+    textDecoration: "none"
   }}
 >
-  RAMUNEX TECHNOLOGIES
+  <img
+    src="/ramunex-logo.jpg"
+    alt="Ramunex Logo"
+    style={{
+      width: "52px",
+      height: "52px",
+      objectFit: "contain"
+    }}
+  />
+
+  <span
+    style={{
+      color: "#ffffff",
+      fontSize: "12px",
+      fontWeight: "700",
+      letterSpacing: "3px",
+      whiteSpace: "nowrap",
+      transform: "translateY(-3px)"
+    }}
+  >
+    RAMUNEX TECHNOLOGIES
+  </span>
 </a>
 
 
