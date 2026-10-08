@@ -41,7 +41,7 @@ export default function Nav() {
       borderRadius: "8px"
     }}
   />
-  <span style={{ color: "#ffffff" }}>RAMUNEX</span>
+ 
 </a>
 
       <nav className="desktop-nav" aria-label="Primary navigation">
