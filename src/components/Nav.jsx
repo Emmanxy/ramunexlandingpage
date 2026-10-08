@@ -29,7 +29,21 @@ export default function Nav() {
 
   return (
     <header className={`nav-shell ${scrolled ? "scrolled" : ""}`}>
-      <a className="brand" href="#top" aria-label="Ramunex home">{siteConfig.company.shortName}<span>.</span></a>
+      
+<a className="brand" href="#top" aria-label="Ramunex Technologies home">
+  <img
+    src="/ramunex-logo.jpg"
+    alt="Ramunex Technologies logo"
+    style={{
+      width: "52px",
+      height: "52px",
+      objectFit: "contain",
+      borderRadius: "8px"
+    }}
+  />
+  <span style={{ color: "#ffffff" }}>RAMUNEX</span>
+</a>
+
       <nav className="desktop-nav" aria-label="Primary navigation">
         {links.slice(0, -1).map(([label, href]) => <a key={href} href={href}>{label}</a>)}
         <a className="button button-small" href="#contact">Contact</a>
