@@ -72,7 +72,7 @@ function App() {
           <EngineeringBackdrop variant="circuit" />
           <div className="scene-overlay" />
           <div className="container hero-content">
-            <p className="hero-kicker">RAMUNEX TECHNOLOGIES</p>
+           
             <h1>We Engineer<br />Technology.</h1>
             <p className="hero-copy">From hardware and embedded systems to software, AI and cloud infrastructure, Ramunex Technologies builds technology from the ground up.</p>
             <div className="hero-actions">
